@@ -184,8 +184,8 @@ class DocumentProcessor:
             "type": "word",
             "paragraph_count": len(paragraphs),
             "table_count": len(tables),
-            "content": paragraphs[:20],  # First 20 paragraphs only
-            "tables": tables[:5],  # First 5 tables only
+            "content": paragraphs,
+            "tables": tables,
             "properties": core_properties,
             "structure": structure,
         }
